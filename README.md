@@ -1,1 +1,3 @@
 # Kalman-filtering-for-object-tracking-video-sequences
+
+Object tracking algorithms aim to determine the state of an object by means of sensor measurements. Kalman filter is one of the most representative tracking algorithms and is conceptualized into two phases: ”Prediction”, which estimates the current state based on previous state and a state transition model, and ”Correction”, which refines that estimation through a measurement. Kalman filter for object tracking is implemented in this project by considering constant velocity or constant acceleration state transition models, and measurement as the center position of an object obtained from video frame analysis.
